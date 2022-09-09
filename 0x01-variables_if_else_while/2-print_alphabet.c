@@ -9,12 +9,14 @@ int main(void)
 {
 	char ch;
 
-	for (ch = 'a'; alphabet <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(alphabet);
+		putchar(ch);
 	}
 
 	putchar('\n');
 
 	return (0);
+}
+
 
