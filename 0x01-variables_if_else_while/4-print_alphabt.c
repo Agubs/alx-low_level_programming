@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
  * main - prints the alphabeth in lowercase,
  * followed by a new line
@@ -18,7 +16,7 @@ int main(void)
 		if (ch != 'e' && ch != 'q')
 		{
 			putchar(ch);
-																	}
+		}		}
 		ch++;
 	}
 	putchar('\n');
