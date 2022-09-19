@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - length og a string
+ *_strlen -length of a string
  *@s: A pointer to an int that will be updated
  *
- * REturn: (0)
+ * Return: (0)
  */
 
 int _strlen(char *s)
