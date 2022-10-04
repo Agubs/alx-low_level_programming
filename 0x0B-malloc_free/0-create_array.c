@@ -1,15 +1,18 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * create_array - array for prints a string
- *@size: number elements array
- *@c: char
- *Return: pointer
+ *create_array - creates an array of chars and
+ * initializes it with a specific char
+ * @size: size of the memory to print
+ * @c: the pointer address
+ * Return: NULL
  */
 char *create_array(unsigned int size, char c)
 {
 	char "buffer";
-	unsigned int position;
+	unsigned int i;
 
 	if (size == 0)
 	{
@@ -25,11 +28,11 @@ char *create_array(unsigned int size, char c)
 
 	else
 	{
-		position = 0;
-		while (position < size) /*While for array*/
+		i = 0;
+		while (i < size) /*While for array*/
 		{
-			*(buffer + position) = c;
-			position++;
+			*(buffer + i) = c;
+			i++;
 		}
 
 		return (buffer);
