@@ -9,9 +9,10 @@
  * @c: the pointer address
  * Return: NULL
  */
+
 char *create_array(unsigned int size, char c)
 {
-	char "buffer";
+	char *buffer;
 	unsigned int i;
 
 	if (size == 0)
